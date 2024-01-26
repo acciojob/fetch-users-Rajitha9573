@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Fetch = () => {
-  const [user, setUser] = useState();
+  const [user, setUser] = useState("");
 
   
 
@@ -42,7 +42,7 @@ const Fetch = () => {
         
           <tbody>
             {
-              user==undefined && 
+              user=="" && 
               <tr>
                 <td>No data found to display</td>
               </tr>
