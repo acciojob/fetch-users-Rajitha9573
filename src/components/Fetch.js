@@ -44,7 +44,7 @@ const Fetch = () => {
             {
               user=="" && 
               <tr>
-                <td>No data found to display</td>
+                No data found to display
               </tr>
             }
            
