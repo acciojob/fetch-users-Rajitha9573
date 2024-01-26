@@ -41,6 +41,12 @@ const Fetch = () => {
         </thead>
         
           <tbody>
+            {
+              user==undefined && 
+              <tr>
+                <td>No data found to display</td>
+              </tr>
+            }
            
             {
 
